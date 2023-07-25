@@ -2,10 +2,104 @@
 <html>
   <head>
     <title> Esmeralda Flores </title>
-      <meta charset="utf-8">
-      <meta name="author" content="Esmeralda Flores">
+    <meta charset="utf-8">
+    <meta name="author" content="Esmeralda Flores">
+    <style>
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #b4eacf;
+        display: flex;
+        justify-content: center;
+      }
+      .banner-image{
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        border-style: double;
+        border-color: black;
+        border-width: thick;
+      }
+      .thumbnails {
+        width: 48px;
+        height: 48px;
+      }
+      .name{
+        color: #094067;
+        display: flex;
+        justify-content: center;
+      }
+      .banner{
+        display: flex;        
+        justify-content: center;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+      .social-icons a{
+        color: #094067;
+        text-decoration: none;
+      }
+      .link {
+        background-color: #b4eacf;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .link a{
+        color:#094067;
+        text-decoration: none;
+        text-align: center; 
+        flex-grow: 1;
+      }
+      .items{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 700px;
+        flex-grow: 1;
+        }
+      *{
+          border: thin red solid;
+        }
+    </style>
   </head>
   <body>
+    <div class="items">
+      <div class="banner">
+        <img src="Profile1.png" alt="Esmeralda Flores headshot" class="banner-image">
+      </div>
+      <div class="name">
+        Esmeralda Flores
+      </div>
 
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/eflores-312512/" target="_blank"> 
+          LinkedIn 
+        </a>
+        <a href="https://github.com/esme-f?tab=overview&from=2023-05-01&to=2023-05-31" target="_blank"> 
+          GitHub 
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="/thumbnails/PizzaIcon.png" alt="Pizza Icon" class="thumbnails">
+
+        <a target="_blank" href="https://www.tastingtable.com/820730/the-absolute-best-pizza-in-chicago-ranked/"> The Absolute Best Pizza In Chicago, Ranked -- Tasting Table </a>
+      </div>
+
+      <div class="link">
+        <img src="/thumbnails/EVIcon.png" alt="EV Icon" class="thumbnails">
+
+        <a target="_blank" href="https://www.simplilearn.com/future-of-electric-vehicle-article"> The Future of Electric Vehicles: Hitting the Backroads and More -- Simplilearn </a>
+      </div>
+
+      <div class="link">
+        <img src="/thumbnails/VideoIcon.png" alt="Video Icon" class="thumbnails">
+        <a target="_blank" href="https://www.youtube.com/watch?v=yaQZFhrW0fU&list=PLa96s0vAgjNv_1UdfDtePHr525ow86KhL&index=2"> William McRaven's  Graduation Speech: University of Texas at Austin 2014 -- William H. McRaven </a>
+      </div>
+    </div>
   </body>
 </html>
